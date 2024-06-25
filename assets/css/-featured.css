@@ -1,0 +1,27 @@
+.featured-section .card {
+  margin: 0 15px 0 15px;
+}
+.featured-section .card-header{
+    cursor: pointer;
+padding: 38px;
+text-align: left;
+}
+
+.featured-section .card-header h4 {
+  top: 24px;
+  left: 79px;
+  font-size: 20px;
+  color:  #FFFFFFB2;
+  
+}
+
+.featured-section .card-header span {
+  top: 10px;
+  left: 10px;
+  padding: 15px;
+  border: 1px solid #b8a74d;
+  border-radius: 30px;
+}
+.featured-section .card-body p{
+margin: 10px 10px 10px 82px;
+text-align: left;}

@@ -1,0 +1,96 @@
+.class-section .section-title h5 {
+  display: inline-block;
+  font-size: 36px;
+  color: #ffffffcc;
+}
+
+.class-section .section-title .class-title{
+  font-size: 18px;
+  direction: ltr;
+  margin-top: 35px;
+}
+
+.class-section .card {
+  width: 276px;
+  border-radius: 20px;
+  border: 3px solid gray;
+  padding: 7px;
+}
+.class-section .card-header {
+  height: 290px;
+border-bottom: 0.1px solid #292B56;
+}
+.class-section .class-header{
+  filter: brightness(0.8);
+  filter:contrast(90%);
+  
+
+}
+.class-section  b{
+  top: 188px;
+    left: 10px;
+    color: #70e6c5;
+    font-size: 14px;
+    font-weight: 500;
+}
+.class-section h5.absolute{
+  font-size: 18px;
+  /* text-align: justify; */
+  top: 220px;
+  left: 10px;
+  display: block;
+}
+.class-section .card-header p{
+top: 221px;
+left: 4px;
+font-size: 14px;
+color: #FFFFFF66;
+margin-bottom: 10px;
+}
+/* card body */
+
+.class-section .card-body{
+  height: 82px;
+}
+.class-section .card-body-h{
+  height: 160px;
+  transition: all .5s ease;
+}
+.class-section .card-body img{
+  width: 20%;
+  position: absolute;
+  left: 9px;
+  top: 21px;
+}
+
+.class-section .card-body .teacher-name{
+  left: 85px;
+  top:21px;
+  line-height: 30px;
+
+}
+.class-section .card-body .teacher-name a{
+  font-size: 14px;
+    font-weight: 700;
+  
+}
+
+.class-section .card-body .teacher-name p{
+font-size: 12px;
+    font-weight: 400;
+  
+}
+
+.class-section .card-body  button{
+background-color: #f5443b;
+height: 40px;
+width: 150px;
+border-radius:12px;
+top: 110px;
+left: 61px;
+
+}
+
+.class-section .card-body .teacher-info{
+  cursor: pointer;
+}

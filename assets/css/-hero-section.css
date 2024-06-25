@@ -1,0 +1,99 @@
+
+.hero-section-rightside h1 {
+  font-size: 56px;
+  line-height: 72.8px;
+  letter-spacing: -1%;
+  max-width: 500px;
+  text-align: left;
+  float: left;
+}
+.hero-section-rightside div {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff66;
+
+}
+
+.hero-section-rightside form input[type="text"] {
+  border-radius: 15px;
+  border: none;
+  top: 0;
+  left: 0;
+  height: 60px;
+  padding: 0 280px 0 10px;
+  cursor: pointer;
+  background-color: #1f2143;
+}
+.hero-section-rightside form button {
+    height: 40px;
+    width: 40px;
+    top: 10px;
+    left: 420px;
+    border-radius: 13px;
+    background-color: #424466;
+    border: none;
+    
+}
+.hero-section-rightside form button:hover{
+   border: 3px solid gray;
+
+}
+.hero-section-rightside form button span{
+    background-color: #424466;
+
+}
+.hero-section-rightside ul li{
+    padding: 20px 0px;
+    width: 550px;
+}
+.hero-section-rightside ul li button{
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    padding: 10px 8px;
+    margin: 8px;
+    box-shadow:  1px 1px 7px darkgray;
+    transition: ease 0.5s;
+}
+.hero-section-rightside ul li button:hover{
+    background-color: #4d4f74;
+}
+
+ 
+    .hero-section-leftside .hero-student{
+    margin-top: -228px;
+    background: none;
+    transition: ease 0.5s;
+}
+.hero-section-leftside .hero-student:hover{
+filter:brightness(130%)
+}
+@media screen and (max-width: 495px){
+    .hero-section-rightside h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .hero-section-rightside form input[type="text"] {
+        padding: 0 150px 0 10px;
+      }
+      .hero-section-rightside form button {
+        height: 40px;
+        width: 40px;
+        top: 10px;
+        left: 290px;
+        border-radius: 13px;
+        background-color: #424466;
+        border: none;
+        
+    }
+
+    .hero-section-rightside ul li span {
+font-size: 14px;
+display: block;
+    }
+}
+
+@media screen and (max-width: 505px){
+.hero-section-leftside .hero-student{
+    display: none;
+}
+}

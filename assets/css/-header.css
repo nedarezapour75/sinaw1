@@ -1,0 +1,97 @@
+.header-section ul {
+  margin-top: 20px;
+  padding: 0 15px;
+}
+.header-section form input[type="submit"] {
+  width: 102px;
+  background-color: #f5443b;
+  height: 41px;
+  padding: 12px, 32px, 12px, 32px;
+  cursor: pointer;
+  float: right;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+.header-section .golb-icon::before {
+  content: "\25BC";
+  font-size: 12px;
+  margin-left: 5px;
+}
+.header-section form input:hover {
+  background-color: #c54d46;
+}
+.header-section ul .golb-icon {
+  color: #d1d1d7;
+  margin: 6px 120px 0 0;
+}
+.header-section ul .golb-icon i {
+  margin-left: 5px;
+}
+.header-section {
+  /* overflow:hidden; */
+  position: sticky;
+  top:0px;
+  z-index: 999;
+}
+
+.menu a {
+  float: right;
+  color: #1d1c1c;
+  text-align: center;
+  padding: 25px 10px 10px 10px;
+  color: #d1d1d7;
+  font-size: 18px;
+}
+.active {
+  border-bottom: 2px solid #f5443b;
+}
+.menu a:hover {
+  border-bottom: 2px solid #f5443b;
+}
+.header-section img {
+  width: 80px;
+  float: left;
+  margin-top: 12px;
+}
+.icon {
+  display: none;
+}
+@media screen and (max-width: 690px) {
+    
+    .menu a {
+    display: none;
+  }
+  .menu a.icon {
+    display: block;
+    float: left;
+    border-bottom: none;
+  }
+  .menu.responsive {
+    position: relative;
+    float: left;
+  
+  }
+  .menu.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .menu.responsive a.icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .menu.responsive img {
+    position: absolute;
+    top: 0px;
+    left:35px;
+    float:left;
+  }
+}
+@media screen and (max-width: 400px){
+  .golb-icon{
+display: none;  
+}
+}
